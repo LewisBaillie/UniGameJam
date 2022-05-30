@@ -333,8 +333,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Scripts/Inventory.cs"
-"Assets/Scripts/Item.cs"
+"Assets/Scripts/Liam/Inventory.cs"
+"Assets/Scripts/Liam/InventoryUI.cs"
+"Assets/Scripts/Liam/Item.cs"
+"Assets/Scripts/Liam/ItemIcon.cs"
 -langversion:8.0
 
 /deterministic
