@@ -13,7 +13,7 @@ public class Item : ScriptableObject
     [field: SerializeField]
     public GameObject model { get; private set; }
     [field: SerializeField]
-    public Image icon { get; private set; }
+    public Sprite icon { get; private set; }
     [field: SerializeField]
     public int quantity { get; private set; }
 

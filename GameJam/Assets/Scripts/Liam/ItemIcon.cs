@@ -10,9 +10,10 @@ public class ItemIcon : MonoBehaviour
     public Image icon;
     public TextMeshProUGUI text;
 
-    void Init(Item item) 
+    public void Init(Item item) 
     {
-        icon = item.icon;
+        icon.sprite = item.icon;
+        UpdateUI(item.quantity);
         item.quantityChanged += UpdateUI;
     }
 

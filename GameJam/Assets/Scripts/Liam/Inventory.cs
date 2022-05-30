@@ -7,7 +7,8 @@ using System.Linq;
 public class Inventory : MonoBehaviour
 {
     public Item[] startingItems;
-    List<Item> items;
+
+    public List<Item> items { get; private set; }
 
     public UnityAction<List<Item>> InventoryUpdated;
 
